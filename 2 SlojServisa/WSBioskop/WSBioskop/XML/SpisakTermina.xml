@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<SpisakTermina>
+  <Termin>
+    <Vreme>16:00</Vreme>
+  </Termin>
+  <Termin>
+    <Vreme>17:30</Vreme>
+  </Termin>
+  <Termin>
+    <Vreme>19:00</Vreme>
+  </Termin>
+  <Termin>
+    <Vreme>21:00</Vreme>
+  </Termin>
+  <Termin>
+    <Vreme>22:00</Vreme>
+  </Termin>
+  
+</SpisakTermina>

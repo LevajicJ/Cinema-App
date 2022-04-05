@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<SpisakSala>
+  <Sala>
+    <BrojSale>1</BrojSale>
+  </Sala>
+  <Sala>
+    <BrojSale>2</BrojSale>
+  </Sala>
+</SpisakSala>
