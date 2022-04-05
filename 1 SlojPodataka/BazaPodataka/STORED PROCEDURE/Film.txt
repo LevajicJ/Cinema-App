@@ -1,0 +1,99 @@
+﻿USE [Bioskop]
+GO
+
+CREATE PROCEDURE [DajSveFilmove]
+AS
+Select * from Film
+GO
+
+CREATE PROCEDURE [DajFilmPoZanru] @ZanrFilma nvarchar(50)
+AS
+select * from Film where Film.Zanr like CONCAT('%',@ZanrFilma,'%');
+GO
+
+
+CREATE PROCEDURE [DodajNoviFilm]( 
+@NazivFilma nvarchar(50),
+@OriginalniNaziv nvarchar(50),
+@Reditelj nvarchar(50),
+@Zanr nvarchar(50),
+@Trajanje int,
+@Uloge nvarchar(100),
+@PocetakPrikazivanja date,
+@Opis nvarchar(500))
+AS
+BEGIN
+Insert into Film(NazivFilma, OriginalniNaziv, Reditelj, Zanr, Trajanje, Uloge, PocetakPrikazivanja, Opis) values (@NazivFilma, @OriginalniNaziv, @Reditelj, @Zanr, @Trajanje, @Uloge, @PocetakPrikazivanja, @Opis)
+END
+GO
+
+
+CREATE PROCEDURE [ObrisiFilm](
+@NazivFilma nvarchar(50))
+AS
+BEGIN
+Delete from Film where NazivFilma=@NazivFilma
+END
+GO
+
+
+CREATE PROCEDURE [IzmeniFilm](
+@StariId int,
+@NazivFilma nvarchar(50),
+@OriginalniNaziv nvarchar(50),
+@Reditelj nvarchar(50),
+@Zanr nvarchar(50),
+@Trajanje int,
+@Uloge nvarchar(100),
+@PocetakPrikazivanja date,
+@Opis nvarchar(500))
+AS
+BEGIN
+Update Film set NazivFilma=@NazivFilma, OriginalniNaziv=@OriginalniNaziv, Reditelj=@Reditelj, Zanr=@Zanr, Trajanje=@Trajanje, Uloge=@Uloge, PocetakPrikazivanja=@PocetakPrikazivanja, Opis=@Opis where IDFilma=@StariId
+END
+GO
+
+
+CREATE PROCEDURE [ObrisiFilmNakonIstekaPeriodaPrikazivanja]
+AS
+BEGIN
+DELETE obrisiFilm FROM Film obrisiFilm INNER JOIN Projekcija ON obrisiFilm.IDFilma = Projekcija.IDFilma WHERE obrisiFilm.PocetakPrikazivanja < DATEADD(day, -30, GETDATE())
+END
+GO
+
+
+CREATE PROCEDURE [DajFilmPoNazivu](
+@NazivFilma nvarchar(50))
+AS
+BEGIN
+SELECT * FROM Film WHERE Film.NazivFilma = @NazivFilma
+END
+GO
+
+
+CREATE PROCEDURE [DajIdPremaNazivuFilma]
+( @NazivFilma nvarchar(50)
+)
+AS
+SELECT IDFilma FROM Film WHERE NazivFilma = @NazivFilma
+GO
+
+
+
+ALTER PROCEDURE [dbo].[DajSveFilmove]
+AS
+Select NazivFilma as Naziv, OriginalniNaziv as 'Originalni naziv', Reditelj, Zanr as Žanr, Trajanje, Uloge, FORMAT(PocetakPrikazivanja , 'dd.MM.yyyy.') AS 'Početak prikazivanja', Opis from Film
+
+
+ALTER PROCEDURE [dbo].[DajFilmPoZanru] @ZanrFilma nvarchar(50)
+AS
+select NazivFilma as Naziv, OriginalniNaziv as 'Originalni naziv', Reditelj, Zanr as Žanr, Trajanje, Uloge, FORMAT(PocetakPrikazivanja , 'dd.MM.yyyy.') AS 'Početak prikazivanja', Opis from Film where Film.Zanr like CONCAT('%',@ZanrFilma,'%');
+
+
+
+ALTER PROCEDURE [dbo].[ObrisiFilmNakonIstekaPeriodaPrikazivanja]
+AS
+BEGIN
+DELETE obrisiFilm FROM Film obrisiFilm LEFT JOIN Projekcija ON obrisiFilm.IDFilma = Projekcija.IDFilma WHERE obrisiFilm.PocetakPrikazivanja < DATEADD(day, -30, GETDATE())
+END
+GO

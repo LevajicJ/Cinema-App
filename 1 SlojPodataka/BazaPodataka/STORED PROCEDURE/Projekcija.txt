@@ -1,0 +1,82 @@
+﻿USE [Bioskop]
+GO
+
+CREATE PROCEDURE [DajSveProjekcijeSaJoin]
+AS
+Select Projekcija.BrojSale, Projekcija.Datum, Projekcija.Vreme, Film.NazivFilma as NazivFilma from Projekcija inner join Film on Projekcija.IDFilma = Film.IDFilma
+GO
+
+CREATE PROCEDURE [DajProjekcijePoDatumu](
+@DatumProjekcije date)
+AS
+Select Projekcija.BrojSale, Projekcija.Datum, Projekcija.Vreme, Film.NazivFilma as NazivFilma from Projekcija inner join Film on Projekcija.IDFilma = Film.IDFilma where Projekcija.Datum = @DatumProjekcije
+GO
+
+CREATE PROCEDURE [DodajNovuProjekciju]( 
+@BrojSale int,
+@Datum date,
+@Vreme nvarchar(5),
+@IDFilma int)
+AS
+BEGIN
+Insert into Projekcija(BrojSale, Datum, Vreme, IDFilma) values (@BrojSale, @Datum, @Vreme, @IDFilma)
+END
+GO
+
+
+CREATE PROCEDURE [IzmeniProjekciju](
+@StariIdProjekcije int,
+@BrojSale int,
+@Datum date,
+@Vreme nvarchar(5),
+@IdFilma int)
+AS
+BEGIN
+Update Projekcija set BrojSale=@BrojSale, Datum=@Datum, Vreme=@Vreme, IDFilma=@IdFilma where IDProjekcije=@StariIdProjekcije
+END
+GO
+
+
+CREATE PROCEDURE [ObrisiProjekciju](
+@IdProjekcije int)
+AS
+BEGIN
+Delete from Projekcija where IDProjekcije=@IdProjekcije
+END
+GO
+
+
+CREATE PROCEDURE [DajProjekcijuPremaDatumuSaliVremenu](
+@Datum date,
+@BrojSale int,
+@Vreme nvarchar(5))
+AS
+BEGIN
+SELECT * FROM Projekcija WHERE Datum = @Datum AND (BrojSale = @BrojSale AND Vreme = @Vreme)
+END
+GO
+
+
+CREATE PROCEDURE [DajProjekcijuPoId](
+@IdProjekcije int)
+AS
+Select * from Projekcija where Projekcija.IDProjekcije = @IdProjekcije
+GO
+
+CREATE PROCEDURE [DajNazivFilmaPoId](
+@IdFilma int)
+AS
+Select * from Film where Film.IDFilma = @IdFilma
+GO
+
+
+
+ALTER PROCEDURE [dbo].[DajProjekcijePoDatumu](
+@DatumProjekcije date)
+AS
+Select Projekcija.BrojSale as Sala, FORMAT(Projekcija.Datum , 'dd.MM.yyyy.') AS 'Datum', Projekcija.Vreme, Film.NazivFilma as 'Naziv filma' from Projekcija inner join Film on Projekcija.IDFilma = Film.IDFilma where Projekcija.Datum = @DatumProjekcije
+
+
+ALTER PROCEDURE [dbo].[DajSveProjekcijeSaJoin]
+AS
+Select Projekcija.BrojSale as Sala, FORMAT(Projekcija.Datum , 'dd.MM.yyyy.') AS 'Datum', Projekcija.Vreme, Film.NazivFilma as 'Naziv filma' from Projekcija inner join Film on Projekcija.IDFilma = Film.IDFilma

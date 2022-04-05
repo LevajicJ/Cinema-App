@@ -1,0 +1,18 @@
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2\01cas01grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\se2\02 cas grupa 1\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SK 2017_18 SE2\03 cas prva grupa\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.dll
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\bin\Debug\DBUtils.pdb
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.csproj.AssemblyReference.cache
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.csproj.CoreCompileInputs.cache
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.dll
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\TehnoloskeKlase\DBUtils\DBUtils\DBUtils\obj\Debug\DBUtils.pdb

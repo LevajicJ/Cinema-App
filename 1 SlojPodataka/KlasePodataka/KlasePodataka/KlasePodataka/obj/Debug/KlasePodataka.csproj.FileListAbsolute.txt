@@ -1,0 +1,25 @@
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2 cas 7 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2 cas 7 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2 cas 7 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\se2 cas 7 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\Se2 cas 10 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\Se2 cas 10 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\Se2 cas 10 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\Se2 cas 10 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 11 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 11 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 11 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 11 grupa 2\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 12 grupa 1\DALJE\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 12 grupa 1\DALJE\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+c:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 12 grupa 1\DALJE\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+c:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 12 grupa 1\DALJE\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 13\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 13\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 13\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\SE2 cas 13\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.csproj.CoreCompileInputs.cache
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+D:\Fakultet\7. semestar\Internet programiranje\Seminarski\PRIMER_SEMINARSKI_netSK2020_21\1_SlojPodataka\KlasePodataka\KlasePodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb
