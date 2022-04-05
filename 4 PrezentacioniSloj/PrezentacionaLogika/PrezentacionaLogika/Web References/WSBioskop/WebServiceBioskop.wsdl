@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DajSveSale">
+        <s:complexType />
+      </s:element>
+      <s:element name="DajSveSaleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DajSveSaleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DajSveTermine">
+        <s:complexType />
+      </s:element>
+      <s:element name="DajSveTermineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DajSveTermineResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DajSveSaleSoapIn">
+    <wsdl:part name="parameters" element="tns:DajSveSale" />
+  </wsdl:message>
+  <wsdl:message name="DajSveSaleSoapOut">
+    <wsdl:part name="parameters" element="tns:DajSveSaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="DajSveTermineSoapIn">
+    <wsdl:part name="parameters" element="tns:DajSveTermine" />
+  </wsdl:message>
+  <wsdl:message name="DajSveTermineSoapOut">
+    <wsdl:part name="parameters" element="tns:DajSveTermineResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceBioskopSoap">
+    <wsdl:operation name="DajSveSale">
+      <wsdl:input message="tns:DajSveSaleSoapIn" />
+      <wsdl:output message="tns:DajSveSaleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DajSveTermine">
+      <wsdl:input message="tns:DajSveTermineSoapIn" />
+      <wsdl:output message="tns:DajSveTermineSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceBioskopSoap" type="tns:WebServiceBioskopSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DajSveSale">
+      <soap:operation soapAction="http://tempuri.org/DajSveSale" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DajSveTermine">
+      <soap:operation soapAction="http://tempuri.org/DajSveTermine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceBioskopSoap12" type="tns:WebServiceBioskopSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DajSveSale">
+      <soap12:operation soapAction="http://tempuri.org/DajSveSale" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DajSveTermine">
+      <soap12:operation soapAction="http://tempuri.org/DajSveTermine" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceBioskop">
+    <wsdl:port name="WebServiceBioskopSoap" binding="tns:WebServiceBioskopSoap">
+      <soap:address location="https://localhost:44311/WebServiceBioskop.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceBioskopSoap12" binding="tns:WebServiceBioskopSoap12">
+      <soap12:address location="https://localhost:44311/WebServiceBioskop.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

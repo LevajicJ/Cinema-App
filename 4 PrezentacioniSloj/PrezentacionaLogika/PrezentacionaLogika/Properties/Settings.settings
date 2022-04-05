@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PrezentacionaLogika.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PrezentacionaLogika_WSBioskop_WebServiceBioskop" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://localhost:44311/WebServiceBioskop.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
