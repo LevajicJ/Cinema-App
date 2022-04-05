@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="KorisnickiInterfejs.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    BIOSKOP
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" >Odjavi se</asp:LinkButton>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Filmovi" 
+                            Value="Filmovi">
+                            <asp:MenuItem NavigateUrl="~/FilmUnos.aspx" 
+                                Text="Unos filmova" Value="Unos filmova">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/FilmTabelarni.aspx" Text="Prikaz svih filmova" 
+                                Value="Prikaz svih filmova"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/FilmTabelaEdit.aspx" 
+                                Text="Izmena i brisanje filmova" Value="Izmena i brisanje filmova">
+                            </asp:MenuItem>
+                            
+                            
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Projekcije" 
+                            Value="NASTAVNICI">
+                            <asp:MenuItem NavigateUrl="~/ProjekcijaUnos.aspx" Text="Unos projekcija" 
+                                Value="Unos projekcija"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ProjekcijeTabelarni.aspx" Text="Prikaz svih projekcija" 
+                                Value="Prikaz svih projekcija"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ProjekcijaTabelaEdit.aspx" Text="Izmena i brisanje projekcija" 
+                                Value="Izmena i brisanje projekcija"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
+
